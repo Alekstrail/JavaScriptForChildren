@@ -21,6 +21,7 @@
             ctx.stroke();
         }
     };
+
     var Ball=function() {
         this.x = width/2;
         this.y = height/2;
@@ -31,6 +32,8 @@
         this.x +=this.xSpeed;
         this.y += this.ySpeed;
         if (this.x<0) {
+
+
             this.xSpeed = -this.xSpeed;
 
         }else if (this.x> width) {
